@@ -185,7 +185,7 @@ input:focus {
 .message {
   padding-top: 10px;
   text-align: center;
-  color: rebeccapurple;
+  color: red;
 }
 
 .about-link {

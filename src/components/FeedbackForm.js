@@ -6,7 +6,7 @@ import RatingSelect from './RatingSelect'
 const FeedbackForm = ({ handleAdd }) => {
 
   const [text, setText] = useState('')
-  const [rating, setRating] = useState(10)
+  const [rating, setRating] = useState(5)
   const [btnDisabled, setBtnDisabled] = useState(true)
   const [message, setMessage] = useState('')
 
@@ -35,6 +35,7 @@ const FeedbackForm = ({ handleAdd }) => {
 
       handleAdd(newFeedback)
       setText("")
+
     }
   }
 
